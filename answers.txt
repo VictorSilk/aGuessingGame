@@ -1,0 +1,40 @@
+Siktar på VG men förstår att de kan bli svårt med koden
+
+
+Fråga 1
+Add använder man när man har ändrat saker i sin kod och behöver uppdatera den med de nya
+och commit använder man efter för att uppdatera sitt repository och man kan lägga till
+meddelanden efter "commit -m" för att beskriva vad som har ändrats.
+
+Fråga 2 
+När du använder dig av push så skickar du nya commits och det du har gjort till github
+När man använder pull så får man ändring andra eller jag kan ha gjort fr¨ån github och
+mergar med mitt locala repository
+
+fråga 3
+När man använder git log får man upp commitsen som har gjorts med kommentarerna som har
+lagts till i commiten och vem som har gjorten. Och när den gjordes
+När man använder status så kan man se om man har filer man inte har addad eller commitat.
+Den visar vad som finns på din locala repository men inga loggar av de.
+
+Fråga 4
+Man kan formulera sig på otroligt många sätt men bästa sättet är att informera dig själv
+men också andra som arbetar på samma projekt. Så man ska formulera sig arbetsmässigt och
+att antingen beskriva vad som har ändrats och vad som kan ha tagits bort. Så mycket 
+detaljerad om du har ändrat mycket så det inte blir fel med projektet och för dom andra
+som arbetar på samma projekt.
+
+Fråga 5
+I git revert så flyttar man sig tillbaka i sina commits till ett speciellt commit med en
+hash code och man kan ändra från commiten man har flyttat till. 
+Reset så backar man bandet också men mer internt och man flyttar tillbaka sin kod och tar
+bort det som har gjorts. Som att man har skrivit fel i koden på flera delar och koden 
+iallmänhet är dålig.
+git revert verkar bättre enligt mig då man kan backa till direkta commits och ändra där och
+verkar göra mindre skada (Då jag har läst en del på internet också om skillanden), då mindre
+fel kan göras för mig men även andra i gruppen eller allmäna programmerare som har tagit del
+av min kod. Git reset tar man bort dålig kod från sin locala repository oftast men kan skada
+om andra har tagit del av koden då man kanske har ändrat varibler eller bara stora delar av
+koden. Läste att man få att commits blir Orpaned och att man tappar bort pathen till dom och
+att dom försvinner så efter 30 dagar pågrund av internal garbage collector.
+
