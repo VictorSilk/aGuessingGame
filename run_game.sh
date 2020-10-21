@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Victor Silkisberg"
+
 mkdir Victor_Silkisberg_labb
 
 cp Guesser.java Guesser2.java
@@ -17,7 +19,7 @@ echo "Compiling game..."
 
 echo "Starting game"
 
-java Guesser2.java
+java Guesser2
 
 echo "Done"
 
