@@ -1,6 +1,5 @@
 Siktar på VG men förstår att de kan bli svårt med koden
 
-
 Fråga 1
 Add använder man när man har ändrat saker i sin kod och behöver uppdatera den med de nya
 och commit använder man efter för att uppdatera sitt repository och man kan lägga till
