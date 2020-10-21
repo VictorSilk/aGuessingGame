@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test{
+public class Guesser{
 
 	public static void main(String[] args){
 	
@@ -22,16 +22,16 @@ public class Test{
 			
 			System.out.println("My guess is: " + guess);
 			System.out.println("Please type yes if I got it right.");
-			System.out.println("Please type higher if your number is greater than " + guess + ".");
-			System.out.println("Please type lower if your number is less than " + guess + ".");
+			System.out.println("Please type T if your number is greater than " + guess + ".");
+			System.out.println("Please type F if your number is less than " + guess + ".");
 			System.out.println("Then press enter.");
 			
 			String answer = scanner.nextLine();
 						
-			if(answer.equals("lower")){
+			if(answer.equals("F")){
 				max = guess - 1;
 			}
-			else if(answer.equals("higher")){
+			else if(answer.equals("T")){
 				min = guess + 1;
 			}
 			else{
