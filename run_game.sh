@@ -1,15 +1,15 @@
-#!/bin/bash
+#! /bin/bash
+Labb=Victor_Silkisberg_labb
 
 echo "Victor Silkisberg"
 
-mkdir Victor_Silkisberg_labb
+mkdir $Labb
 
-cp -R "*.java" "/Victor_Silkisberg_labb/"
+cp  *.java $Labb
 
-cd ./Victor_Silkisberg_labb
+cd $Labb
 
-echo -n "Running game from "
-pwd
+echo  "Running game from $(pwd)"
 
 Javac Guesser.java
 
@@ -23,4 +23,4 @@ echo "Done"
 
 rm  *.class
 
-ls ./Victor_Silkisberg_labb
+ls 
